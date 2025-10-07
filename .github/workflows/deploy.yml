@@ -22,6 +22,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
@@ -33,25 +36,25 @@ jobs:
         uses: actions/cache@v4
         with:
           path: |
-            ${{ env.SITE_DIR }}/resources
-          key: hugo-${{ env.HUGO_VERSION }}-${{ hashFiles('**/hugo.toml') }}
+            resources
+          key: hugo-${{ env.HUGO_VERSION }}-${{ hashFiles('hugo.toml') }}
           restore-keys: |
             hugo-${{ env.HUGO_VERSION }}-
 
-      - name: Install Node dependencies (if present)
-        working-directory: ${{ env.SITE_DIR }}
+      - name: Install Node dependencies (theme dev only)
         run: |
           if [ -f package.json ]; then npm ci --legacy-peer-deps; fi
 
-      - name: Build
-        working-directory: ${{ env.SITE_DIR }}
+      - name: Build site
         run: |
+          echo "Repository contents:" && ls -1
+          test -f hugo.toml || (echo "hugo.toml not found in repo root" && exit 1)
           hugo --minify
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ${{ env.SITE_DIR }}/public
+          path: public
 
   deploy:
     needs: build
