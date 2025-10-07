@@ -1,0 +1,9 @@
+baseURL = 'https://almahmoudresearch.com/'
+languageCode = 'en-US'
+title = 'Alexandru Mahmoud – Cloud & Open Science Engineering'
+theme = 'hugo-bootstrap-theme'
+
+[params]
+	description = 'Independent consulting in cloud architecture (Kubernetes & general cloud services), elastic/serverless bursting, reproducible analytics, and open science infrastructure.'
+	contactLanguages = ['English','Français','Română','العربية']
+

@@ -1,0 +1,74 @@
+// Custom styling for consulting site
+// Professional palette (deep blue primary, teal accent, subtle neutrals)
+:root {
+  --brand-primary: #0b3d60; /* deep desaturated blue */
+  --brand-primary-rgb: 11,61,96;
+  --brand-accent: #0d9488; /* teal accent */
+  --brand-accent-rgb: 13,148,136;
+  --brand-accent-soft: #e0f4f2;
+  --brand-bg-soft: #f5f7fa; /* light neutral */
+  --brand-bg-alt: #eef2f5; /* slightly darker neutral */
+  --brand-border: #d6dde3;
+  --brand-gradient-start: #0b3d60;
+  --brand-gradient-end: #116b93;
+}
+
+body { color: #1f2730; }
+
+a { color: var(--brand-accent); }
+a:hover { color: #0b776c; }
+
+.btn-primary { background-color: var(--brand-primary); border-color: var(--brand-primary); }
+.btn-primary:hover { background-color: #094057; border-color: #094057; }
+.btn-outline-secondary { color: var(--brand-primary); border-color: var(--brand-border); }
+.btn-outline-secondary:hover { background-color: var(--brand-accent-soft); border-color: var(--brand-accent); color: var(--brand-primary); }
+
+/* Section backgrounds */
+.section-soft { background: var(--brand-bg-soft); }
+.section-alt { background: var(--brand-bg-alt); }
+.section-accent-soft { background: var(--brand-accent-soft); }
+
+/* Subtle gradient separator utility */
+.gradient-bar { height: 4px; background: linear-gradient(90deg,var(--brand-gradient-start),var(--brand-gradient-end)); border-radius: 2px; }
+
+.hero { 
+  background: linear-gradient(135deg, rgba(var(--brand-primary-rgb),0.06), #ffffff 60%);
+}
+.hero .lead { font-size: 1.25rem; }
+
+.affil-card, .capability-card { 
+  transition: box-shadow .25s ease, transform .25s ease; 
+  background: #fff; 
+}
+.affil-card:hover, .capability-card:hover { 
+  box-shadow: 0 .75rem 2rem rgba(0,0,0,.08); 
+  transform: translateY(-4px); 
+}
+
+.tracking-wide { letter-spacing: .07em; }
+
+.cta { background: var(--brand-bg-soft); }
+
+// Language badges (if used later)
+.lang-badges span { 
+  display: inline-block; 
+  background: #eef1f5; 
+  border-radius: 999px; 
+  padding: .35rem .75rem; 
+  font-size: .75rem; 
+  text-transform: uppercase; 
+  letter-spacing: .05em; 
+  margin: .15rem .25rem; 
+}
+
+/* Card border & hover color alignment */
+.affil-card, .capability-card { border-color: var(--brand-border); }
+.affil-card:hover, .capability-card:hover { border-color: var(--brand-accent); }
+
+/* Headings accent underline helper */
+.heading-accent { position: relative; display: inline-block; }
+.heading-accent:after { content:""; position:absolute; left:0; bottom:-0.4rem; width:42%; height:3px; background:linear-gradient(90deg,var(--brand-accent),var(--brand-primary)); border-radius:2px; }
+
+/* Links inside muted text */
+.text-muted a { color: var(--brand-primary); text-decoration: underline; }
+.text-muted a:hover { color: var(--brand-accent); }
