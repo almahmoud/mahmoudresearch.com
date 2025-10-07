@@ -1,25 +1,70 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Cloud &amp; Open Science Engineering on Alexandru Mahmoud – Cloud &amp; Open Science Engineering</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in Cloud &amp; Open Science Engineering on Alexandru Mahmoud – Cloud &amp; Open Science Engineering</description>
-    <generator>Hugo</generator>
-    <language>en-US</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;h1 id=&#34;about&#34;&gt;About&lt;/h1&gt;&#xA;&lt;p&gt;I&amp;rsquo;m &lt;strong&gt;Alexandru (Alex) Mahmoud&lt;/strong&gt; – an independent cloud &amp;amp; research software engineer focused on reproducible, automated, open science infrastructure.&lt;/p&gt;&#xA;&lt;p&gt;SIREN: &lt;code&gt;990 047 938&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;core-open-science-roles&#34;&gt;Core Open Science Roles&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Bioconductor&lt;/strong&gt; Core Engineer (&lt;a href=&#34;https://bioconductor.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bioconductor.org&lt;/a&gt;): container &amp;amp; cloud architecture, build / binary modernization, workshop + identity platforms, multi-cloud deployment pipelines.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Galaxy Project&lt;/strong&gt; team member (&lt;a href=&#34;https://galaxyproject.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://galaxyproject.org&lt;/a&gt;): Kubernetes &amp;amp; Helm stacks, CVMFS‑CSI integration, scalable CI/CD, secure on-demand platforms for genomics workflows.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;NHGRI AnVIL Project&lt;/strong&gt; (&lt;a href=&#34;https://anvilproject.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://anvilproject.org&lt;/a&gt;): Led integration of Bioconductor &amp;amp; Galaxy into Terra (GCP/Azure) secure research environments; cross-team coordination, architecture, automation.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;selected-systems--platforms-i-built--maintain&#34;&gt;Selected Systems &amp;amp; Platforms I Built / Maintain&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Area&lt;/th&gt;&#xA;          &lt;th&gt;Highlights&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Training &amp;amp; Identity&lt;/td&gt;&#xA;          &lt;td&gt;Bioconductor Workshop Platform (ephemeral environments), Keycloak IAM customization, automated provisioning&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Containers &amp;amp; Binaries&lt;/td&gt;&#xA;          &lt;td&gt;bioc2u Debian packaging pipeline, multi-arch container stacks, container binary builder (GPU/Jupyter/RStudio variants)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Deployment Stacks&lt;/td&gt;&#xA;          &lt;td&gt;Bioconductor &amp;amp; Galaxy Helm charts, Galaxy Kubernetes runner backend, CVMFS-CSI Helm integration&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Modernization&lt;/td&gt;&#xA;          &lt;td&gt;Shift from static always-on infra to ephemeral, automated, testable pipelines (GitHub Actions, multi-cloud CI)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Data / Access&lt;/td&gt;&#xA;          &lt;td&gt;Hubs ingestion automation, secure cloud object storage routing, status &amp;amp; observability endpoints&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;approach--engineering-philosophy&#34;&gt;Approach &amp;amp; Engineering Philosophy&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Automation First&lt;/strong&gt; – CI/CD, reproducible builds, dependency transparency.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Ephemeral by Default&lt;/strong&gt; – reduce manual drift and lingering state.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Security &amp;amp; Maintainability&lt;/strong&gt; – lean images, minimized permissions, declarative configs.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Open Standards&lt;/strong&gt; – leverage community ecosystems instead of bespoke reinvention.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;publications-selected&#34;&gt;Publications (Selected)&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Galaxy Helm chart: standardized deployment of production Galaxy (Bioinformatics, 2024)&lt;/li&gt;&#xA;&lt;li&gt;Bioconductor community infrastructure &amp;amp; teaching (arXiv 2024)&lt;/li&gt;&#xA;&lt;li&gt;Galaxy platform 2022 NAR update (Nucleic Acids Research, 2022)&lt;/li&gt;&#xA;&lt;li&gt;NHGRI AnVIL cloud genomics platform (Cell Genomics, 2022)&lt;/li&gt;&#xA;&lt;li&gt;GalaxyCloudRunner scalable bursting (Bioinformatics, 2020)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;languages-communication&#34;&gt;Languages (Communication)&lt;/h2&gt;&#xA;&lt;p&gt;English · Français · Română  · العربية&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Services &amp; Rates</title>
-      <link>http://localhost:1313/services/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/</guid>
-      <description>&lt;h1 id=&#34;services--rates&#34;&gt;Services &amp;amp; Rates&lt;/h1&gt;&#xA;&lt;p&gt;I partner with research institutes, academic labs, non-profits, and data platform teams to architect, modernize, and operationalize cloud &amp;amp; open science infrastructure with an automation-first approach.&lt;/p&gt;&#xA;&lt;p&gt;I work as both a &lt;strong&gt;Scientific Technical Consultant&lt;/strong&gt; (clarifying scope, architecture, roadmaps) and a &lt;strong&gt;Research Software Engineer&lt;/strong&gt; (hands-on implementation, deployment, stabilization, documentation &amp;amp; handover).&lt;/p&gt;&#xA;&lt;h2 id=&#34;core-services&#34;&gt;Core Services&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Cloud architecture &amp;amp; scaling (GCP, AWS, Azure, Jetstream2 / OpenStack) — Kubernetes, hybrid, elastic &amp;amp; serverless bursting patterns&lt;/li&gt;&#xA;&lt;li&gt;Scientific / analytic platform deployment (Galaxy, Bioconductor, RStudio, Jupyter)&lt;/li&gt;&#xA;&lt;li&gt;Container build pipelines &amp;amp; binary/package delivery (Docker, Helm, GitHub Actions, automated CD)&lt;/li&gt;&#xA;&lt;li&gt;Identity, access, and multi-tenant training environments (Keycloak, ephemeral clusters)&lt;/li&gt;&#xA;&lt;li&gt;Infrastructure hardening, reproducibility, and modernization audits&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;rates&#34;&gt;Rates&lt;/h2&gt;&#xA;&lt;p&gt;Base consulting / engineering rate: &lt;strong&gt;$150 USD / €125 EUR&lt;/strong&gt; per hour.&lt;br&gt;&#xA;Discounts available for:&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cloud &amp; Open Science Engineering on Alexandru Mahmoud – Cloud &amp; Open Science Engineering</title><link>https://almahmoudresearch.com/</link><description>Recent content in Cloud &amp; Open Science Engineering on Alexandru Mahmoud – Cloud &amp; Open Science Engineering</description><generator>Hugo</generator><language>en-US</language><atom:link href="https://almahmoudresearch.com/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://almahmoudresearch.com/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://almahmoudresearch.com/about/</guid><description>&lt;h1 id="about"&gt;About&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;m &lt;strong&gt;Alexandru (Alex) Mahmoud&lt;/strong&gt; – an independent cloud &amp;amp; research software engineer focused on reproducible, automated, open science infrastructure.&lt;/p&gt;
+&lt;p&gt;SIREN: &lt;code&gt;990 047 938&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id="core-open-science-roles"&gt;Core Open Science Roles&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Bioconductor&lt;/strong&gt; Core Engineer (&lt;a href="https://bioconductor.org" target="_blank" rel="noopener"&gt;https://bioconductor.org&lt;/a&gt;): container &amp;amp; cloud architecture, build / binary modernization, workshop + identity platforms, multi-cloud deployment pipelines.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Galaxy Project&lt;/strong&gt; team member (&lt;a href="https://galaxyproject.org" target="_blank" rel="noopener"&gt;https://galaxyproject.org&lt;/a&gt;): Kubernetes &amp;amp; Helm stacks, CVMFS‑CSI integration, scalable CI/CD, secure on-demand platforms for genomics workflows.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NHGRI AnVIL Project&lt;/strong&gt; (&lt;a href="https://anvilproject.org" target="_blank" rel="noopener"&gt;https://anvilproject.org&lt;/a&gt;): Led integration of Bioconductor &amp;amp; Galaxy into Terra (GCP/Azure) secure research environments; cross-team coordination, architecture, automation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="selected-systems--platforms-i-built--maintain"&gt;Selected Systems &amp;amp; Platforms I Built / Maintain&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Area&lt;/th&gt;
+ &lt;th&gt;Highlights&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Training &amp;amp; Identity&lt;/td&gt;
+ &lt;td&gt;Bioconductor Workshop Platform (ephemeral environments), Keycloak IAM customization, automated provisioning&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Containers &amp;amp; Binaries&lt;/td&gt;
+ &lt;td&gt;bioc2u Debian packaging pipeline, multi-arch container stacks, container binary builder (GPU/Jupyter/RStudio variants)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Deployment Stacks&lt;/td&gt;
+ &lt;td&gt;Bioconductor &amp;amp; Galaxy Helm charts, Galaxy Kubernetes runner backend, CVMFS-CSI Helm integration&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Modernization&lt;/td&gt;
+ &lt;td&gt;Shift from static always-on infra to ephemeral, automated, testable pipelines (GitHub Actions, multi-cloud CI)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Data / Access&lt;/td&gt;
+ &lt;td&gt;Hubs ingestion automation, secure cloud object storage routing, status &amp;amp; observability endpoints&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="approach--engineering-philosophy"&gt;Approach &amp;amp; Engineering Philosophy&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Automation First&lt;/strong&gt; – CI/CD, reproducible builds, dependency transparency.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ephemeral by Default&lt;/strong&gt; – reduce manual drift and lingering state.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Security &amp;amp; Maintainability&lt;/strong&gt; – lean images, minimized permissions, declarative configs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Open Standards&lt;/strong&gt; – leverage community ecosystems instead of bespoke reinvention.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="publications-selected"&gt;Publications (Selected)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Galaxy Helm chart: standardized deployment of production Galaxy (Bioinformatics, 2024)&lt;/li&gt;
+&lt;li&gt;Bioconductor community infrastructure &amp;amp; teaching (arXiv 2024)&lt;/li&gt;
+&lt;li&gt;Galaxy platform 2022 NAR update (Nucleic Acids Research, 2022)&lt;/li&gt;
+&lt;li&gt;NHGRI AnVIL cloud genomics platform (Cell Genomics, 2022)&lt;/li&gt;
+&lt;li&gt;GalaxyCloudRunner scalable bursting (Bioinformatics, 2020)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="languages-communication"&gt;Languages (Communication)&lt;/h2&gt;
+&lt;p&gt;English · Français · Română · العربية&lt;/p&gt;</description></item><item><title>Services &amp; Rates</title><link>https://almahmoudresearch.com/services/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://almahmoudresearch.com/services/</guid><description>&lt;h1 id="services--rates"&gt;Services &amp;amp; Rates&lt;/h1&gt;
+&lt;p&gt;I partner with research institutes, academic labs, non-profits, and data platform teams to architect, modernize, and operationalize cloud &amp;amp; open science infrastructure with an automation-first approach.&lt;/p&gt;
+&lt;p&gt;I work as both a &lt;strong&gt;Scientific Technical Consultant&lt;/strong&gt; (clarifying scope, architecture, roadmaps) and a &lt;strong&gt;Research Software Engineer&lt;/strong&gt; (hands-on implementation, deployment, stabilization, documentation &amp;amp; handover).&lt;/p&gt;
+&lt;h2 id="core-services"&gt;Core Services&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Cloud architecture &amp;amp; scaling (GCP, AWS, Azure, Jetstream2 / OpenStack) — Kubernetes, hybrid, elastic &amp;amp; serverless bursting patterns&lt;/li&gt;
+&lt;li&gt;Scientific / analytic platform deployment (Galaxy, Bioconductor, RStudio, Jupyter)&lt;/li&gt;
+&lt;li&gt;Container build pipelines &amp;amp; binary/package delivery (Docker, Helm, GitHub Actions, automated CD)&lt;/li&gt;
+&lt;li&gt;Identity, access, and multi-tenant training environments (Keycloak, ephemeral clusters)&lt;/li&gt;
+&lt;li&gt;Infrastructure hardening, reproducibility, and modernization audits&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="rates"&gt;Rates&lt;/h2&gt;
+&lt;p&gt;Base consulting / engineering rate: &lt;strong&gt;$150 USD / €125 EUR&lt;/strong&gt; per hour.&lt;br&gt;
+Discounts available for:&lt;/p&gt;</description></item></channel></rss>

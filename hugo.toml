@@ -1,4 +1,4 @@
-baseURL = 'https://almahmoudresearch.com/'
+baseURL = 'https://almahmoudresearch.duckdns.org/'
 languageCode = 'en-US'
 title = 'Alexandru Mahmoud – Cloud & Open Science Engineering'
 theme = 'hugo-bootstrap-theme'
